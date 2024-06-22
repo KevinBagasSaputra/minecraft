@@ -1,0 +1,252 @@
+*,
+body,
+html{
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial;
+    background-color: #252322d3;
+}
+
+/* NAVBAR START */
+nav{
+    border-bottom: 6px solid #171615;
+    box-shadow: #171615 10px 0 20px 1px;
+
+}
+
+nav .container{
+    text-align: center;
+
+}
+
+nav .container ul{
+    background-color: #252322d3;
+    padding: 20px;
+
+    margin: auto;
+}
+
+nav .container ul li{
+    display: inline-block;
+
+}
+
+nav .container ul li .judul{
+    color: white;
+
+    font-size: 36px;
+    font-weight: 900;
+
+    text-decoration: none;
+    padding: 10px;
+
+    background-color: #252322d3;
+
+}
+
+nav .container .navigasi{
+    text-align: center;
+}
+
+nav .container .navigasi li a{
+    color: white;
+
+    font-size: 14px;
+    font-weight: 900;
+
+    text-decoration: none;
+    padding: 3.2px;
+    padding-bottom: 20px;
+
+    background-color: #252322d3;
+}
+    nav .container .navigasi li a:hover{
+        color: #71AE53;
+    }
+/* NAVBAR END */
+
+
+
+
+
+/* HERO START */
+.hero{
+    width: 100%;    
+
+}
+
+.hero .container{
+    padding: 20px;
+    background-color: #171615;
+
+}
+
+.hero .container img{
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0 0 0 6px white; */
+
+}
+
+.kotak-1{
+    background-color: #71AE53;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+    width: 100%;
+    height: 30px;
+}
+
+        /* HERO-TEXT START */
+        .hero-text{
+            margin: auto;
+            width: 100%;
+
+            text-align: center;
+            color: white;
+
+        }
+
+        .hero-text .container{
+
+        }
+
+        .hero-text .container h2{
+            padding: 20px;  
+            background-color: #252322d3;
+
+
+        }
+
+        .hero-text .container p{
+
+            padding: 15px;
+            background-color: #252322d3;
+
+        }
+
+
+        .hero-text .container ul{
+            
+            padding: 25px;
+        }
+
+        .hero-text .container .get-started{
+            padding: 3px;
+
+            color: white;
+            background-color: #3C8527;
+
+            border-top: 6px solid #52A535;
+            border-bottom: 6px solid #03551e;
+
+            font-weight: 700;
+            text-decoration: none;
+            
+        }
+
+        .hero-text .container .get-minecraft{
+
+            color: white;
+
+            font-weight: 700;
+            text-decoration: none;
+
+            padding: 10px;
+
+        }.hero-text .container .get-minecraft:hover{
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+
+        .hero-text .container .get-started:hover{
+            background-color: #277911;
+
+            box-shadow: 0 0 400px 1px green;
+
+
+        }
+        /* HERO-TEXT END */
+
+
+            /* CARD START */
+            .card{
+                width: 100%;
+
+                margin-top: 10px;
+            }
+
+            .card .container{
+                background-color: #252322d3;
+            }
+
+            .card .container img{
+                width: 100%;
+            }
+
+            .card .container ul li{
+                display: flex;
+                justify-content: space-around;
+
+                list-style-type: none;
+                
+            }
+
+            .card .container ul li a{
+                text-decoration: none;
+
+                width: 100%;
+            }
+            /* CARD END */
+/* HERO END */
+
+
+
+
+/* OUR GAME START */
+.our-game{
+    width: 100%;
+}
+
+.our-game .container{
+    padding: 20px;
+}
+
+.our-game .container h2{
+    color: white;
+    
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.our-game .container p{
+    color: gray;
+    text-align: left;
+}
+
+
+
+    /* CARD START */
+    .our-game .container .card{
+        width: 100%;
+        
+
+    
+    }
+    
+    .our-game .container .card .container{
+        width: 94%;
+    
+    }
+    
+    .our-game .container .card .container img{
+        width: 100%;
+
+    
+        background-color: #171615;
+    
+
+    }
+    /* CARD END */
+/* OUR GAME END */
